@@ -33,7 +33,7 @@ public class EliminarContactos extends AppCompatActivity {
             public void onClick(View v) {
                 EditText editEliminarContacto = findViewById(R.id.editEliminar);
 
-                String stringIDEliminar = editEliminarContacto.getText().toString();
+                String stringIDEliminar = editEliminarContacto.getText().toString().trim();
             }
         });
     }
